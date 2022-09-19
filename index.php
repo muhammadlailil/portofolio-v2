@@ -26,49 +26,53 @@
                         <div class="user_profile_image">
                             <img src="img/mahfud_2.jpg" alt="">
                         </div>
-                        <h3 class="name">
-                            Lailil Mahfud
-                            <img src="img/verif.png" class="verif" alt="">
-                        </h3>
-                        <p class="username">@LaililMahfud</p>
-                        <p class="bio">Web Engginer</p>
-                        <div class="d-flex">
-                            <a href="https://id.linkedin.com/in/lailil-mahfud-4041791aa" target="_blank" class="btn btn-primary">Linkedin</a>
-                            <a href="mailto:laililmahvut@gmail.com" target="_blank" class="btn btn-light">E-Mail</a>
-                            <a href="https://drive.google.com/file/d/12jMnuvt45aNt_2mIsa5NvF4UZBz38G-z/view" target="_blank" class="btn btn-light">CV</a>
-                        </div>
                     </div>
-                    <div class="profile_information">
-                        <p class="about">
-                            Hi, I'm Lailil Mahfud.
-                            I am an IT Professional who has experience in technology and web application development.
-                            I am also very interested in learning new things related to the development of the IT world. I'm also good at
-                            <a href="javascript:;">@Laravel</a>
-                            <a href="javascript:;">@Spring</a>
-                            <a href="javascript:;">@Java</a>
-                            <a href="javascript:;">@JavaScript</a>
-                            <a href="javascript:;">@Node.js</a>
-                            <a href="javascript:;">@Vue.js</a>
-                            <a href="javascript:;">@PHP</a>
-                        </p>
-                        <table>
-                            <tr>
-                                <th>Email</th>
-                                <td>: <a href="mailto:laililmahvut@gmail.com" target="_blank">laililmahvut@gmail.com</a></td>
-                            </tr>
-                            <tr>
-                                <th>Phone</th>
-                                <td>: <a href="https://wa.me/081229744559?text=Hello, Lailil Mahfud" target="_blank">+62 812 2974 4559</a></td>
-                            </tr>
-                            <tr>
-                                <th>Github</th>
-                                <td>: <a href="https://github.com/muhammadlailil" target="_blank">@Lailil Mahfud</a></td>
-                            </tr>
-                            <tr>
-                                <th>Address</th>
-                                <td>: Blingoh, Donorojo, Jepara, Jawa Tengah, Indonesia</td>
-                            </tr>
-                        </table>
+                    <div class="sticky_sidebar">
+                        <div class="profile">
+                            <h3 class="name">
+                                Lailil Mahfud
+                                <img src="img/verif.png" class="verif" alt="">
+                            </h3>
+                            <p class="username">@LaililMahfud</p>
+                            <p class="bio">Web Engginer</p>
+                            <div class="d-flex">
+                                <a href="https://id.linkedin.com/in/lailil-mahfud-4041791aa" target="_blank" class="btn btn-primary">Linkedin</a>
+                                <a href="mailto:laililmahvut@gmail.com" target="_blank" class="btn btn-light">E-Mail</a>
+                                <a href="https://drive.google.com/file/d/12jMnuvt45aNt_2mIsa5NvF4UZBz38G-z/view" target="_blank" class="btn btn-light">CV</a>
+                            </div>
+                        </div>
+                        <div class="profile_information">
+                            <p class="about">
+                                Hi, I'm Lailil Mahfud.
+                                I am an IT Professional who has experience in technology and web application development.
+                                I am also very interested in learning new things related to the development of the IT world. I'm also good at
+                                <a href="javascript:;">@Laravel</a>
+                                <a href="javascript:;">@Spring</a>
+                                <a href="javascript:;">@Java</a>
+                                <a href="javascript:;">@JavaScript</a>
+                                <a href="javascript:;">@Node.js</a>
+                                <a href="javascript:;">@Vue.js</a>
+                                <a href="javascript:;">@PHP</a>
+                            </p>
+                            <table>
+                                <tr>
+                                    <th>Email</th>
+                                    <td>: <a href="mailto:laililmahvut@gmail.com" target="_blank">laililmahvut@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Phone</th>
+                                    <td>: <a href="https://wa.me/+6281229744559?text=Hello, Lailil Mahfud" target="_blank">+62 812 2974 4559</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Github</th>
+                                    <td>: <a href="https://github.com/muhammadlailil" target="_blank">@Lailil Mahfud</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Address</th>
+                                    <td>: Blingoh, Donorojo, Jepara, Jawa Tengah, Indonesia</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <?php

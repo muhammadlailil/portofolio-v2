@@ -248,7 +248,10 @@
 .project_detail_information a {
     text-decoration: none;
 }
-
+.sticky_sidebar{
+    position: sticky;
+    top: 100px;
+}
 @media (max-width: 559px) {
     .swiperSkils {
         margin-top: 35px;
