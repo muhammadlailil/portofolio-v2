@@ -58,7 +58,11 @@ const modalDetailPortofolio = new bootstrap.Modal(document.getElementById('modal
 })
 
 function showDetailPortofolio(id) {
-    const porto = findPortoById(id);
+    const data = JSON.parse(listOfPortofolio)
+    const porto = data.filter(rows => {
+        return rows.id == id
+    })[0]
+    
     if(porto){
         $('.project_detail_image img').attr('src',porto.bg)
         let tools = ``
@@ -80,14 +84,4 @@ function showDetailPortofolio(id) {
         $('#modalDetailPortofolio .project_detail_information').html(htmlInformation)
         modalDetailPortofolio.toggle()
     }    
-}
-
-function findPortoById(id){
-    const data = JSON.parse(listOfPortofolio)
-    for(let[i,row] of data.entries()){
-        if(row.id===id){
-            return row;
-        }
-    }
-    return null
 }
