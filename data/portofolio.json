@@ -1,0 +1,155 @@
+[
+    {
+        "id" : 1,
+        "name" : "HaloYelow @Aseanindo",
+        "bg" : "img/porto/yelow/main.png",
+        "tools" : ["@Node.js","Laravel","Socket","Mysql"],
+        "year" : "2021 - Present",
+        "role" : "Develop BackEnd and API For 3 apps",
+        "description" : "HaloYelow is a digital contact center application in which there are several companies that can register directly through the website.<br>In this project there are 3 applications and 1 company backend website. The company's backend website is used to manage products as well as a list of agents and spv of the company.<br> The 3 applications in this project are applications for cutomer, spv and agent.<br> In this project I contribute to developing a backend website and designing APIs for these three applications.<br> The website uses the PHP programming language using the Laravel framework, while for the API it uses Nodejs based on ExpressJs."
+    },{
+        "id" : 2,
+        "name" : "Perfect Assistant AMFS @AXA",
+        "bg" : "img/porto/pa/main.png",
+        "tools" : ["@Java","@Spring Boot","@SQL Server"],
+        "year" : "2021 - Present",
+        "role" : "Develop BackEnd and API",
+        "description" : "Perfect Assistant is an application from AXA Mandiri.<br>Some Application Features,<br>IMGS PANDA: Makes it easier to fill out and approve sales targets that previously still used email and were sent to superiors<br>WIP ACT: Sales can monitor targets and achievements in real time, previously using excel sent by superiors<br>I work as a backend engineer who creates system backends and creates APIs for applications"
+    },{
+        "id" : 3,
+        "name" : "Afione @AXA",
+        "bg" : "img/porto/afione/main.png",
+        "tools" : ["@Java","@Spring Boot","@SQL Server"],
+        "year" : "2019 - 2022",
+        "role" : "Develop BackEnd and API",
+        "description" : "AFI One is an application created specifically for AXA Financial Indonesia agents which will speed up the process of distributing information in real time from the company to all agents throughout Indonesia.<br>Features<br>Event notification, Navigator, Content sharing, Survey form, E-library,Video player<br>In this project, my role is to develop applications from the backend side"
+    },{
+        "id" : 4,
+        "name" : "Prima Armada Raya @PAR",
+        "bg" : "img/porto/par/main.png",
+        "tools" : ["@Laravel","PostgreSQL"],
+        "year" : "2022",
+        "role" : "Develop BackEnd and API",
+        "description" : "Prima Armada Raya, car rental application for company activities."
+    },{
+        "id" : 5,
+        "name" : "MPM Ride @MPM",
+        "bg" : "img/porto/mpm/main.png",
+        "tools" : ["@Laravel","@MySQL","@Javascript"],
+        "year" : "2022 - 2021",
+        "role" : "Develop BackEnd and API",
+        "description" : "MRide MPM, Car rental application for corporate activities.<br>The ease of processing a 4-wheeled vehicle insurance claim is an added value for MPM Insurance, by using the 'Partner Claim' application, customers can easily submit a claim process and can monitor in real time the progress of processing their vehicle claims.<br>Feature<br>Claim submission,Product catalog,Claim survey,Claims progress"
+    },{
+        "id" : 6,
+        "name" : "Siloam Hospital @Siloam",
+        "bg" : "img/porto/siloam/main.png",
+        "tools" : ["@Node.js","@Expressjs","@Vue.js","@Nuxt.js","@PostgreSQL"],
+        "year" : "2021 - 2022",
+        "role" : "Develop BackEnd Superadmin and API",
+        "description" : "Siloam Hospital is an application that is used for reporting from each department in Siloam."
+    },{
+        "id" : 7,
+        "name" : "Gain Gizi Apps @Kemenkes",
+        "bg" : "img/porto/gain/main.png",
+        "tools" : ["@Laravel","@Javascript","@MySQL","@PHP"],
+        "year" : "2020 - 2021",
+        "role" : "Develop BackEnd,FrontEnd and API",
+        "description" : "Gain is an application project from the Ministry of Health.<br>This application is used to calculate nutritional adequacy figures.<br>Applications in the form of android apps and web apps"
+    },{
+        "id" : 8,
+        "name" : "Wurkin",
+        "bg" : "img/porto/wurkin/main.png",
+        "tools" : ["@Node.js","@React.js","@NestJS"],
+        "year" : "2021",
+        "role" : "Develop BackEnd and API",
+        "description" : "Wurkin, is an application that is used to find jobs for jobseekers, as well as post jobs for companies."
+    },{
+        "id" : 9,
+        "name" : "Tokomaid",
+        "bg" : "img/porto/tokomaid/main.png",
+        "tools" : ["@Laravel","@MySQL","@PHP"],
+        "year" : "2021 - 2022",
+        "role" : "Develop BackEnd and API",
+        "description" : "Tokomaid, is an application to find a competent household assistant in their field.<br>There are two applications, pemberi kerja and pencari kerja"
+    },{
+        "id" : 10,
+        "name" : "Reprime @reprime.id",
+        "bg" : "img/porto/reprime/main.png",
+        "tools" : ["@Laravel","@Node.js","@PostgreSQL","@PHP"],
+        "year" : "2019 - Present",
+        "role" : "Develop BackEnd and API",
+        "description" : "Reprime.id, is an HR application that can be used for employee attendance, submission of overtime, leave, reimbursement and payroll."
+    },{
+        "id" : 11,
+        "name" : "Digipay @FFI",
+        "bg" : "img/porto/digipay/main.png",
+        "tools" : ["@Laravel","@Xendit","@Midtrans","@PHP"],
+        "year" : "2020",
+        "role" : "Develop BackEnd and API",
+        "description" : "Digipay, is an internet payment application for their surveyors."
+    },{
+        "id" : 12,
+        "name" : "TourIn - Tour and Travel",
+        "bg" : "img/porto/tourin/main.png",
+        "tools" : ["@Laravel","@MySQL","@PHP"],
+        "year" : "2020 - 2021",
+        "role" : "Develop BackEnd and API",
+        "description" : "Tourin, is a website for ordering tour agents. In it there are various kinds of tours provided by agents and users can buy available tour packages."
+    },{
+        "id" : 13,
+        "name" : "IM2 GIG @Indosat",
+        "bg" : "img/porto/im2/main.png",
+        "tools" : ["@Laravel"],
+        "year" : "2020",
+        "role" : "Develop BackEnd and API",
+        "description" : "Indosat M2 GIG, is a sales reporting application from Indosat M2 GIG"
+    },{
+        "id" : 14,
+        "name" : "Wisma Kopo @Angkasa Pura",
+        "bg" : "img/porto/wisma/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2019",
+        "role" : "Develop BackEnd,FrontEnd",
+        "description" : "Wisma Kopo, a guest house rental application for Angkasa Pura employees."
+    },{
+        "id" : 15,
+        "name" : "Pogumedia @Panasonic",
+        "bg" : "img/porto/panasonic/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2019",
+        "role" : "Develop BackEnd and API",
+        "description" : "Pogumedia, Panasonic sales reporting application."
+    },{
+        "id" : 16,
+        "name" : "Agunan Survey - Renifit",
+        "bg" : "img/porto/agunan/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2019",
+        "role" : "Develop BackEnd and API",
+        "description" : "Agunan Surver, auction application."
+    },{
+        "id" : 17,
+        "name" : "Orbitin.id",
+        "bg" : "img/porto/orbitin/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2019",
+        "role" : "Develop BackEnd and API",
+        "description" : "Orbitin, an event ticket sales application."
+    },{
+        "id" : 18,
+        "name" : "Indesso Apps @indesso",
+        "bg" : "img/porto/indesso/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2019 - 2020",
+        "role" : "Develop BackEnd and API",
+        "description" : "Indesso, a sales reporting application."
+    },{
+        "id" : 19,
+        "name" : "P.A.R.I.S @PP",
+        "bg" : "img/porto/paris/main.png",
+        "tools" : ["@Laravel","@CrudBooster"],
+        "year" : "2020",
+        "role" : "Develop BackEnd and API",
+        "description" : "P.A.R.I.S, PP project development progress monitoring application."
+    }
+]

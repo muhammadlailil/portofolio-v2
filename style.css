@@ -1,0 +1,245 @@
+/* Fonts */
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("fonts/Poppins-Light.ttf");
+    src: url("fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("fonts/Poppins-Bold.ttf");
+}
+
+.navbar-brand img {
+    width: 255px;
+}
+
+.user_profile_image {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    padding: 4px;
+}
+
+.user_profile_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.main__content {
+    padding-top: 20px;
+}
+
+.profile .name {
+    margin-top: 15px;
+    font-family: "Poppins-SemiBold";
+}
+
+.profile .name .verif {
+    width: 23px;
+    margin-top: -2px;
+}
+
+.profile .username {
+    font-family: "Poppins-SemiBold";
+    margin-bottom: 0px;
+}
+
+.profile .bio {
+    color: #C5C5C5;
+}
+
+.profile .btn-light {
+    border: 1px solid #ddd;
+}
+
+.profile .btn {
+    margin-right: 10px;
+    width: 100%;
+}
+
+.profile_information .about {
+    margin-top: 50px;
+    font-family: "Poppins-Regular";
+}
+
+.profile_information table {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.profile_information table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.profile_information table tr th {
+    width: 80px;
+    vertical-align: baseline;
+    font-size: 18px;
+}
+
+.header_list_info .item {
+    display: inline-block;
+    font-family: "Poppins-SemiBold";
+    margin-right: 20px;
+}
+
+.header_list_info .item .image_preview {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 2px solid #ddd;
+    padding: 5px;
+    /* background-color: #ddd; */
+}
+
+.header_list_info .item .center-item {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.header_list_info .item .image_preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.swiperSkils {
+    overflow: hidden;
+}
+
+.swiper_arrow_button img {
+    width: 20px;
+}
+
+.swiper_arrow_button {
+    background: #ddd;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper_arrow_button .swiper_button_next {
+    display: inline;
+    float: right;
+}
+
+.swiper_arrow_button .swiper_button_prev {
+    display: inline;
+}
+
+.portofolio_list .header_menu img {
+    width: 23px;
+    margin-right: 5px;
+}
+
+.portofolio_list .header_menu a {
+    border-bottom: 2px solid;
+    text-decoration: none;
+    width: 100%;
+    padding: 9px;
+    margin-top: 40px;
+    color: #000;
+    font-family: "Poppins-SemiBold";
+}
+
+.portofolio_list .header_menu .contact-menu {
+    border-color: #ddd;
+    color: #787070;
+}
+
+.portofolio_content {
+    margin-top: 20px;
+}
+
+.portofolio_content .portofolio_item {
+    margin-bottom: 30px;
+}
+
+.portofolio_content .portofolio_item .image {
+    height: 200px;
+    width: 100%;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+
+.portofolio_content .portofolio_item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+.portofolio_content .portofolio_item .project_name {
+    font-family: "Poppins-SemiBold";
+    color: #000;
+}
+
+.portofolio_content .portofolio_item .image .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(rgb(121 122 128 / 42%), rgb(78 91 146 / 64%));
+}
+
+.portofolio_content .portofolio_item .image:hover .overlay {
+    opacity: 1;
+}
+
+.portofolio_content .portofolio_item .image .overlay .badge {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+    font-weight: normal;
+}
+.modal-content{
+    border-radius: 0px;
+}
+.project_detail_image{
+    background: #ebebeb;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.project_detail_image img{
+    border-radius: 10px;
+}
+.project_detail_information a{
+    text-decoration: none;
+}
