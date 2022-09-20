@@ -36,7 +36,7 @@
                             <p class="username">@LaililMahfud</p>
                             <p class="bio">Web Engginer</p>
                             <div class="d-flex">
-                                <a href="https://id.linkedin.com/in/lailil-mahfud-4041791aa" target="_blank" class="btn btn-primary">Linkedin</a>
+                                <a href="https://id.linkedin.com/in/lailil-mahfud-4041791aa" target="_blank" class="btn btn-primary">LinkedIn</a>
                                 <a href="mailto:laililmahvut@gmail.com" target="_blank" class="btn btn-light">E-Mail</a>
                                 <a href="https://drive.google.com/file/d/12jMnuvt45aNt_2mIsa5NvF4UZBz38G-z/view" target="_blank" class="btn btn-light">CV</a>
                             </div>
