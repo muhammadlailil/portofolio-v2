@@ -75,34 +75,12 @@
                         </div>
                     </div>
                 </div>
-                <?php
-                    $skils = file_get_contents('data/skil.json');
-                    $skilsArray = json_decode($skils, true);
-                ?>
+                
                 <div class="col-sm-9">
                     <div class="swiperSkils">
-                        <div class="header_list_info swiper-wrapper">
-                            <?php
-                                foreach ($skilsArray as $skl) {
-                            ?>
-                            <div class="item swiper-slide">
-                                <div class="center-item text-center">
-                                    <div class="image_preview">
-                                        <img src="<?php echo $skl['icon'] ?>" alt="">
-                                    </div>
-                                    <span><?php echo $skl['name'] ?></span>
-                                </div>
-                            </div>
-                            <?php }?>
+                        <div class="header_list_info skils_list_wrappper swiper-wrapper">
+                            <!-- list of skils -->
                         </div>
-                        <!-- <div class="swiper_arrow_button">
-                            <div class="swiper_button_next">
-                                <img src="img/right-arrow.png" alt="">
-                            </div>
-                            <div class="swiper_button_prev">
-                                <img src="img/left-arrow.png" alt="">
-                            </div>
-                        </div> -->
                     </div>
 
                     <div class="portofolio_list">
@@ -117,27 +95,8 @@
                             </a>
                         </div>
 
-                        <?php
-                            $porto = file_get_contents('data/portofolio.json');
-                            $portoArray = json_decode($porto, true);
-                        ?>
-                        <textarea id="listOfPortofolio" class="d-none"><?php echo $porto; ?></textarea>
                         <div class="portofolio_content row">
-                            <?php
-                                foreach ($portoArray as $po) {
-                            ?>
-                            <div class="col-sm-4">
-                                <div class="portofolio_item">
-                                    <div class="image">
-                                        <img src="<?php echo $po['bg'] ?>" alt="">
-                                        <div class="overlay" onclick="showDetailPortofolio(<?php echo $po['id']?>)">
-                                            <a href="javascript:;" class="badge text-white bg-primary">Detail</a>
-                                        </div>
-                                    </div>
-                                    <p class="project_name"><?php echo $po['name'] ?></p>
-                                </div>
-                            </div>
-                            <?php }?>
+                            <!-- list of portofolio -->
                         </div>
                     </div>
                 </div>
@@ -150,6 +109,7 @@
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="row">
                         <div class="col-sm-7">
                             <div class="project_detail_image">
@@ -168,6 +128,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
